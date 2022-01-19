@@ -1,0 +1,52 @@
+.inline{
+  display: inline;
+}
+.red{
+  color: rgb(231 61 54);
+}
+body{
+  direction: rtl;
+  font-family: 'Tinos', serif;
+  margin: 0;
+}
+#site-header{
+  text-align: center;
+  background-color: rgb(205 213 255);
+  padding-top: 10px;
+}
+h1{
+  font-size: 50px;
+}
+#site-logo{
+  width: 240px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+article{
+  border: solid 1px grey;
+  display: inline-block;
+  width: 300px;
+}
+.article-header{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  text-shadow: 2px 3px 3px black;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding: 20px;
+  padding: 40px 20px 30px 15px;
+  padding: 40px 20px;
+  padding: 45px 20px 40px;
+}
+h3{
+  margin: 0;
+}
+.article-content{
+  padding: 0 10px 20px;
+}
